@@ -9706,7 +9706,7 @@ textarea.form-control {
 
 /* Responsive .one-third.img class */
 .one-third.img {
-  background-size: 70%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -9738,3 +9738,4 @@ textarea.form-control {
     background-size: 30%;
   }
 }  
+
