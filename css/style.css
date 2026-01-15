@@ -9703,3 +9703,38 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Responsive .one-third.img class */
+.one-third.img {
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Tablet devices (768px to 1024px) */
+@media (max-width: 1024px) {
+  .one-third.img {
+    background-size: 60%;
+  }
+}
+
+/* Small tablets and large phones (576px to 768px) */
+@media (max-width: 768px) {
+  .one-third.img {
+    background-size: 50%;
+  }
+}
+
+/* Mobile devices (up to 576px) */
+@media (max-width: 576px) {
+  .one-third.img {
+    background-size: 40%;
+  }
+}
+
+/* Extra small devices (up to 480px) */
+@media (max-width: 480px) {
+  .one-third.img {
+    background-size: 30%;
+  }
+}  
